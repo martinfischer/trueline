@@ -76,7 +76,7 @@ _trueline_user_segment() {
     local fg_color="$1"
     local bg_color="$2"
     local font_style="$3"
-    local user="$USER"
+    local user="λ"
     local is_root="$(_trueline_is_root)"
     if [[ -n "$is_root" ]]; then
         if [[ -z "$user" ]]; then
